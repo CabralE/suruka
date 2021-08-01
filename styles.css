@@ -3,7 +3,19 @@ ul {
 }
 
 li {
-    display: inline;   
+    display: inline; 
+    padding-left: 20px;  
+
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+.headerNav {
+    position: relative;
+    left: 1000px;
+    top: -10px;
 
 }
 
@@ -13,8 +25,21 @@ div {
 
 .products {
     padding-bottom: 20px;
-    ;
+    position: relative;
+    top: -45px;
     
+}
+
+#shopNow {
+    position: relative;
+    bottom: -20px;
+    border-radius: 2px;
+    width: 120px;
+    height: 50px;
+    background-color: #555;
+    color: white;
+
+    border-color: #555;
 }
 
 .section1 {
